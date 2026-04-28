@@ -1,3 +1,4 @@
+// Implementación productos y carrito
 // LISTA DE PRODUCTOS
 const productos = [
   { id: 1, nombre: "Camiseta deportiva", precio: 10000 },
