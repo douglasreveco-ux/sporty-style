@@ -102,7 +102,7 @@ document.getElementById("form").addEventListener("submit", function(e) {
   mostrarCarrito();
   document.getElementById("form").reset();
 });
-
+// Uso de sessionStorage
 // LOGIN SIMULADO (tipo Auth0)
 function login() {
   const nombre = "Douglas"; // puedes poner tu nombre
