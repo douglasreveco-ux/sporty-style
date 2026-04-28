@@ -60,7 +60,7 @@ document.getElementById("form").addEventListener("submit", function(e) {
   const direccion = document.getElementById("direccion").value.trim();
   const correo = document.getElementById("correo").value.trim();
   const telefono = document.getElementById("telefono").value.trim();
-
+// Validación formulario compra
   // VALIDACIONES
   if (nombre === "" || direccion === "" || correo === "" || telefono === "") {
     alert("Todos los campos son obligatorios");
