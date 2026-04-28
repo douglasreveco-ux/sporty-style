@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>SportyStyle</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>SportyStyle 🏋️</h1>
+
+<button onclick="login()">Iniciar sesión</button>
+<button onclick="logout()">Cerrar sesión</button>
+
+<h2 id="user"></h2>
+
+<h2>Productos</h2>
+<div id="productos"></div>
+
+<h2>Carrito</h2>
+<div id="carrito"></div>
+
+<h2>Formulario de compra</h2>
+
+<form id="form">
+  <input type="text" id="nombre" placeholder="Nombre" required><br><br>
+  <input type="text" id="direccion" placeholder="Dirección" required><br><br>
+  <input type="email" id="correo" placeholder="Correo" required><br><br>
+  <input type="text" id="telefono" placeholder="Teléfono" required><br><br>
+  <button type="submit">Comprar</button>
+</form>
+
+<script src="app.js"></script>
+</body>
+</html>
